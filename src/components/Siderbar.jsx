@@ -7,7 +7,7 @@ const Sidebar = ({ onClose }) => {
 
   const handleDashBoard = () => {
     navigate("/dashboard");
-    // onClose();
+    onClose();
   };
 
   const name = "Chinedu"; //would come from an api
@@ -55,7 +55,7 @@ const Sidebar = ({ onClose }) => {
 
 Sidebar.propTypes = {
   isOpen: PropTypes.bool.isRequired,
-  onClose: PropTypes.func.isRequired,
+  onClose: PropTypes.func,
 };
 
 export default Sidebar;
