@@ -57,7 +57,7 @@ const Modal = ({ length, authorLen, comment }) => {
   );
 };
 
-Modal.prototype = {
+Modal.propTypes = {
   length: PropTypes.number,
   authorLen: PropTypes.number,
   comment: PropTypes.number,

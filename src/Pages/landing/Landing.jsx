@@ -28,14 +28,6 @@ const Landing = () => {
       >
         Read More
       </Button>
-      {/* <Box boxSize="sm" marginTop="5rem">
-        <Image
-          src="src/assets/school.jpg"
-          alt="Dan Abramov"
-          orderRadius="full"
-          borderRadius="5px"
-        />
-      </Box> */}
     </div>
   );
 };
