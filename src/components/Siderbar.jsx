@@ -19,10 +19,10 @@ const Sidebar = ({ onClose }) => {
 
   return (
     <div className="bg-white flex flex-col justify-between h-100% md:h-90%">
-      <div className="mt-5 md:mt-0">
-        <div className="cursor-pointer flex flex-row items-center md:hidden px-2">
+      <div className="mt-5 md:mt-0 h-screen">
+        <div className="cursor-pointer pl-[70px] flex flex-row items-center md:hidden px-2">
           <div className="w-100% flex-col items-center flex">
-            <div className="flex py-3">
+            <div className="flex py-3 pr-[8rem]">
               {imageUrl ? (
                 <img
                   src={imageUrl}
@@ -44,7 +44,7 @@ const Sidebar = ({ onClose }) => {
         </div>
         <nav className="w-100% flex flex-col items-center justify-center space-y-4 pt-6">
           <div
-            className="w-100% flex flex-row py-2 items-center cursor-pointer hover:bg-red hover:text-black justify-center"
+            className="w-100% flex flex-row py-2 items-center cursor-pointer w-full hover:bg-gray-400 hover:text-white justify-center"
             onClick={handleDashBoard} // Handle dashboard navigation
           >
             <MdDashboard size={25} /> {/* Dashboard icon */}
