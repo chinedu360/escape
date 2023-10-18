@@ -39,8 +39,11 @@ Before you begin, make sure you have the following installed on your machine:
 Now that you have installed the dependencies, you can run the application:
 
     ```shell
-    npm start
-    yarn start
+    
+       npm start
+       
+       yarn start
+    
     ```
 
 This command starts the development server, and the application will be available in your web browser at http://localhost:5173.
