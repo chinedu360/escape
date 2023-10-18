@@ -38,7 +38,7 @@ Before you begin, make sure you have the following installed on your machine:
 
 Now that you have installed the dependencies, you can run the application:
 
-    ```
+    ```shell
     npm start
     yarn start
     ```
@@ -47,7 +47,7 @@ This command starts the development server, and the application will be availabl
 
 ### Usage
 
-    Visit the landing page by opening http://localhost:5173 in your web browser.
+   Visit the landing page by opening http://localhost:5173 in your web browser.
 
 To access the dashboard, click the "Read More" button on the landing page or navigate directly to http://localhost:5173/dashboard.
 
