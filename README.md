@@ -4,6 +4,12 @@
 
 E-SCAPE is a web application designed to provide users with a platform to read articles. The application features a landing page and a dashboard with article lists and author information.
 
+### Code Coverage Report
+
+To see the detailed code coverage report, click the link below:
+
+<iframe src="coverage/index.html" width="100%" height="600px"></iframe>
+
 ## Getting Started
 
 These instructions will help you set up and run the E-SCAPE web application locally on your machine.
@@ -32,8 +38,10 @@ Before you begin, make sure you have the following installed on your machine:
 
 Now that you have installed the dependencies, you can run the application:
 
+    ```
     npm start
     yarn start
+    ```
 
 This command starts the development server, and the application will be available in your web browser at http://localhost:5173.
 
@@ -56,6 +64,27 @@ This project uses the following technologies and libraries:
     Axios
     Vitest for testing
 
-### License
+### Test
 
-This project is open-source and available under the MIT License.
+To ensure the correctness and reliability of this project, you can run tests and check the code coverage.
+
+#### Running Tests
+
+To run the test suite, use the following command:
+
+```shell
+    npm run test
+    yarn test
+
+```
+
+### Code Coverage
+
+You can also check the code coverage of this project by running the following command:
+
+```shell
+    npm run coverage
+    yarn coverage
+```
+
+This will generate a code coverage report, allowing you to see which parts of the codebase are covered by tests and identify areas that may need further testing or improvement.

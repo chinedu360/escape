@@ -12,9 +12,14 @@ describe("Modal.jsx", () => {
       </MemoryRouter>
     ).toJSON();
 
+    console.log(modal.children[0].children[0]);
+
     //modal containers
     expect(modal.type).toBe("div");
-    expect(modal.children[1].type).toBe("div");
+    expect(modal.children[0].type).toBe("div");
+    expect(modal.children[0].children[0].type).toBe("div");
+    expect(modal.children[0].children[1].type).toBe("div");
+    expect(modal.children[0].children[2].type).toBe("div");
   });
 
   it("Snapshot", () => {

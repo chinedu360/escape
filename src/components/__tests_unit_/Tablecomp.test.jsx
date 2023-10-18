@@ -11,11 +11,13 @@ describe("TableComp.jsx", () => {
         <TableComp />
       </MemoryRouter>
     ).toJSON();
-
+    console.log(
+      header.children[1].children[0].children[0].children[0].children[2]
+    );
     //Header containers
     expect(header.type).toBe("div");
     expect(header.props.className).toBe(
-      "m-2 rounded-lg bg-white shadow-lg h-[70vh] overflow-y-scroll"
+      "m-2 rounded-lg bg-white shadow-lg h-70vh overflow-y-scroll"
     );
     expect(header.children[0].type).toBe("h2");
     expect(header.children[1].type).toBe("div");
@@ -29,10 +31,10 @@ describe("TableComp.jsx", () => {
       header.children[1].children[0].children[0].children[0].children[0].type
     ).toBe("th");
     expect(
-      header.children[1].children[0].children[0].children[0].children[1].type
+      header.children[1].children[0].children[0].children[0].children[2].type
     ).toBe("th");
     expect(
-      header.children[1].children[0].children[0].children[0].children[1]
+      header.children[1].children[0].children[0].children[0].children[2]
         .children[0]
     ).toBe("Description");
     expect(header.children[2].type).toBe("div");

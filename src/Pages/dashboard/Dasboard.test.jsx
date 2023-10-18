@@ -45,6 +45,8 @@ describe("testing the Dashboard", () => {
       </MemoryRouter>
     ).toJSON();
 
+    // console.log(dashboard);
+
     // Dashboard containers
     expect(dashboard.type);
     expect(dashboard.children[0].type).toBe("h2");

@@ -7,7 +7,6 @@ import styles from "./LandingLayout.module.css"; // Import styles for LandingLay
 const LandingLayout = () => {
   return (
     <div className={styles.LandingLayout}>
-      {" "}
       {/* Apply styles to the outer container */}
       <div className="col-span-1 row-span-1 " style={{ background: "red" }}>
         <Header /> {/* Render the Header component */}

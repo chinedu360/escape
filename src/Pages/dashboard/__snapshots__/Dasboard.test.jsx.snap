@@ -9,7 +9,6 @@ exports[`testing the Dashboard > Snapshot 1`] = `
   >
     Welcome Back,
   </h2>
-   
   <div
     className="m-2"
   >
@@ -101,7 +100,6 @@ exports[`testing the Dashboard > Snapshot 1`] = `
                 >
                   Description
                 </th>
-                 
               </tr>
             </thead>
             <tbody
@@ -183,7 +181,6 @@ exports[`testing the Dashboard > Snapshot 1`] = `
                 >
                   Description
                 </th>
-                 
               </tr>
             </thead>
             <tbody

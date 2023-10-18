@@ -24,7 +24,7 @@ const Dashboard = () => {
 
   return (
     <div className="">
-      <h2 className="ml-2 font-bold text-[25px] my-4">Welcome Back,</h2>{" "}
+      <h2 className="ml-2 font-bold text-[25px] my-4">Welcome Back,</h2>
       {/* Render a welcome message */}
       <Modal
         length={post?.length}

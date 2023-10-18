@@ -50,7 +50,7 @@ const TableComp = ({
 
       {err && (
         <div className="flex justify-center items-center w-100% h-70vh">
-          <p className="text-red text-13px">{err?.message}</p>{" "}
+          <p className="text-red text-13px">{err?.message}</p>
           {/* Display error message */}
         </div>
       )}
@@ -63,7 +63,7 @@ const TableComp = ({
             emptyColor="gray.200"
             color="Black.500"
             size="xl"
-          />{" "}
+          />
           {/* Display a loading spinner */}
         </div>
       )}
@@ -74,7 +74,7 @@ const TableComp = ({
             <Thead>
               <Tr>
                 <Th> {titleName}</Th> {/* Display the title name */}
-                <Th display={display}>Description</Th>{" "}
+                <Th display={display}>Description</Th>
                 {/* Display the description column */}
               </Tr>
             </Thead>
@@ -111,7 +111,7 @@ const TableComp = ({
                   </p>
                 </Td>
                 <Td display={display}>
-                  {item?.body?.split(" ")?.slice(0, 5)?.join(" ")}...{" "}
+                  {item?.body?.split(" ")?.slice(0, 5)?.join(" ")}...
                   {/* Display truncated description */}
                 </Td>
               </Tr>

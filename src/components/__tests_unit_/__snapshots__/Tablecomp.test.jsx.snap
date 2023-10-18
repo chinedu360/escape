@@ -40,7 +40,6 @@ exports[`TableComp.jsx > Snapshot 1`] = `
           >
             Description
           </th>
-           
         </tr>
       </thead>
       <tbody

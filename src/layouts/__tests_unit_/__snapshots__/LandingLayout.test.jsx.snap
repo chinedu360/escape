@@ -4,7 +4,6 @@ exports[`LandingLayout.jsx > Snapshot 1`] = `
 <div
   className="_LandingLayout_88f216"
 >
-   
   <div
     className="col-span-1 row-span-1 "
     style={
