@@ -6,9 +6,9 @@ E-SCAPE is a web application designed to provide users with a platform to read a
 
 ### Code Coverage Report
 
-To see the detailed code coverage report, click the link below:
+To see the detailed code coverage report:
 
-<iframe src="coverage/index.html" width="100%" height="600px"></iframe>
+coverage/index.html
 
 ## Getting Started
 
@@ -39,8 +39,8 @@ Before you begin, make sure you have the following installed on your machine:
 Now that you have installed the dependencies, you can run the application:
 
     ```
-    npm start
-    yarn start
+        npm start
+        yarn start
     ```
 
 This command starts the development server, and the application will be available in your web browser at http://localhost:5173.
