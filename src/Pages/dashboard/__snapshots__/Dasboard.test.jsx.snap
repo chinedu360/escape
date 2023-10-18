@@ -1,0 +1,226 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`testing the Dashboard > Snapshot 1`] = `
+<div
+  className=""
+>
+  <h2
+    className="ml-2 font-bold text-[25px] my-4"
+  >
+    Welcome Back,
+  </h2>
+   
+  <div
+    className="m-2"
+  >
+    <div
+      className="css-1ghed9e"
+    >
+      <div
+        className="border-red-300 border-[2px] rounded-md css-170zrko"
+      >
+        <div
+          className="css-1bwftuo"
+        />
+        <div
+          className="css-1p2ux4r"
+        >
+          My Articles
+        </div>
+      </div>
+      <div
+        className="border-green-600 border-[2px] rounded-md css-1n1mkoi"
+      >
+        <div
+          className="css-daheo5"
+        />
+        <div
+          className="css-1p2ux4r"
+        >
+          Our Authors
+        </div>
+      </div>
+      <div
+        className="border-teal-500 border-[2px] rounded-md css-1n1mkoi"
+      >
+        <div
+          className="css-h53m4y"
+        />
+        <div
+          className="css-1p2ux4r"
+        >
+          Comments
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex md:flex-row flex-col"
+  >
+    <div
+      className="w-[100%] md:w-[100%] space-y-4"
+    >
+      <div
+        className="m-2 rounded-lg bg-white shadow-lg h-70vh overflow-y-scroll"
+      >
+        <h2
+          className="m-2 font-semibold text-20px"
+          style={
+            {
+              "backgroundColor": "white",
+              "position": "sticky",
+              "top": 0,
+              "zIndex": 1,
+            }
+          }
+        >
+          My Articles
+           
+        </h2>
+        <div
+          className="chakra-table__container css-1gc4pzd"
+        >
+          <table
+            className="chakra-table css-0"
+          >
+            <thead
+              className="css-0"
+            >
+              <tr
+                className="css-0"
+              >
+                <th
+                  className="css-0"
+                >
+                   
+                  Article Name
+                </th>
+                 
+                <th
+                  className="css-0"
+                >
+                  Description
+                </th>
+                 
+              </tr>
+            </thead>
+            <tbody
+              className="css-0"
+            />
+          </table>
+        </div>
+        <div
+          className="undefined flex p-5 items-center cursor-pointer space-x-1"
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M427 234.625H167.296l119.702-119.702L256 85 85 256l171 171 29.922-29.924-118.626-119.701H427v-42.75z"
+            />
+          </svg>
+           
+          <p>
+            Back
+          </p>
+           
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-[100%] md:w-[30%] space-y-4"
+    >
+      <div
+        className="m-2 rounded-lg bg-white shadow-lg h-70vh overflow-y-scroll"
+      >
+        <h2
+          className="m-2 font-semibold text-20px"
+          style={
+            {
+              "backgroundColor": "white",
+              "position": "sticky",
+              "top": 0,
+              "zIndex": 1,
+            }
+          }
+        >
+          Best Authors
+           
+        </h2>
+        <div
+          className="chakra-table__container css-1gc4pzd"
+        >
+          <table
+            className="chakra-table css-0"
+          >
+            <thead
+              className="css-0"
+            >
+              <tr
+                className="css-0"
+              >
+                <th
+                  className="css-0"
+                >
+                   
+                  Authors Name
+                </th>
+                 
+                <th
+                  className="css-v2jh1l"
+                >
+                  Description
+                </th>
+                 
+              </tr>
+            </thead>
+            <tbody
+              className="css-0"
+            />
+          </table>
+        </div>
+        <div
+          className="hidden flex p-5 items-center cursor-pointer space-x-1"
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M427 234.625H167.296l119.702-119.702L256 85 85 256l171 171 29.922-29.924-118.626-119.701H427v-42.75z"
+            />
+          </svg>
+           
+          <p>
+            Back
+          </p>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,96 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Sidebar.jsx > Snapshot 1`] = `
+<div
+  className="bg-white flex flex-col justify-between h-100% md:h-90%"
+>
+  <div
+    className="mt-5 md:mt-0"
+  >
+    <div
+      className="cursor-pointer flex flex-row items-center md:hidden px-2"
+    >
+      <div
+        className="w-100% flex-col items-center flex"
+      >
+        <div
+          className="flex py-3"
+        >
+          <div
+            className="rounded-full h-10 w-10 bg-gray-300 flex justify-center items-center"
+          >
+            <span
+              className="text-white font-bold text-sm"
+            >
+              CH
+            </span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <svg
+          fill="currentColor"
+          height={30}
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width={30}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+        </svg>
+         
+      </div>
+    </div>
+    <nav
+      className="w-100% flex flex-col items-center justify-center space-y-4 pt-6"
+    >
+      <div
+        className="w-100% flex flex-row py-2 items-center cursor-pointer hover:bg-red hover:text-black justify-center"
+        onClick={[Function]}
+      >
+        <svg
+          fill="currentColor"
+          height={25}
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width={25}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+          />
+        </svg>
+         
+        <div
+          className="mx-2"
+        >
+          Dashboard
+        </div>
+         
+      </div>
+    </nav>
+  </div>
+</div>
+`;

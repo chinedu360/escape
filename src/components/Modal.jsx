@@ -1,19 +1,19 @@
-// import React from 'react'
+// Import necessary modules and components
 import PropTypes from "prop-types";
 import { SimpleGrid, Center, Box } from "@chakra-ui/react";
 
+// Define the Modal component
 const Modal = ({ length, authorLen, comment }) => {
   return (
     <div className="m-2">
-      {" "}
+      {/* Create a grid with 1 column on small screens, 2 columns on medium screens, and 3 columns on large screens */}
       <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={4}>
+        {/* Box for 'My Articles' */}
         <Box
           bg="white"
           height="80px"
-          borderRadius="lg "
-          // boxShadow="outline"
-          rounded="md"
-          className=" border-red-300 border-[2px]"
+          borderRadius="lg"
+          className="border-red-300 border-[2px] rounded-md"
           boxShadow="md"
         >
           <Center p={3} color="tomato">
@@ -23,13 +23,12 @@ const Modal = ({ length, authorLen, comment }) => {
             My Articles
           </Center>
         </Box>
+        {/* Box for 'Our Authors' */}
         <Box
           bg="white"
           height="80px"
           borderRadius="lg"
-          // boxShadow="outline"
-          rounded="md"
-          className=" border-green-600 border-[2px]"
+          className="border-green-600 border-[2px] rounded-md"
         >
           <Center p={3} color="green">
             {authorLen}
@@ -38,12 +37,12 @@ const Modal = ({ length, authorLen, comment }) => {
             Our Authors
           </Center>
         </Box>
+        {/* Box for 'Comments' */}
         <Box
           bg="white"
           height="80px"
           borderRadius="lg"
-          rounded="md"
-          className=" border-teal-500 border-[2px]"
+          className="border-teal-500 border-[2px] rounded-md"
         >
           <Center p={3} color="teal">
             {comment}
@@ -57,10 +56,12 @@ const Modal = ({ length, authorLen, comment }) => {
   );
 };
 
+// Define propTypes for the Modal component to specify expected prop types
 Modal.propTypes = {
-  length: PropTypes.number,
-  authorLen: PropTypes.number,
-  comment: PropTypes.number,
+  length: PropTypes.number, // Length of 'My Articles'
+  authorLen: PropTypes.number, // Length of 'Our Authors'
+  comment: PropTypes.number, // Number of 'Comments'
 };
 
+// Export the Modal component
 export default Modal;

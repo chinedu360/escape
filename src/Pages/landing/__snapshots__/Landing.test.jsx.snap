@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`testing the Landing/Home Page > Snapshot 1`] = `
+<div
+  className="flex flex-col justify-center items-center"
+>
+  <div
+    className=""
+  >
+    <h1
+      className="font-bold text-[30px] sm:text-[60px] md:text-[80px]"
+    >
+      Read An Article Today!
+    </h1>
+  </div>
+  <button
+    className="chakra-button css-1uerm0v"
+    onClick={[Function]}
+    type="button"
+  >
+    Read More
+    <span
+      className="chakra-button__icon css-1hzyiq5"
+    >
+      <svg
+        aria-hidden={true}
+        fill="currentColor"
+        focusable={false}
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </span>
+  </button>
+</div>
+`;

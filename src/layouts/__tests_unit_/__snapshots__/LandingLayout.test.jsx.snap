@@ -1,0 +1,120 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LandingLayout.jsx > Snapshot 1`] = `
+<div
+  className="_LandingLayout_88f216"
+>
+   
+  <div
+    className="col-span-1 row-span-1 "
+    style={
+      {
+        "background": "red",
+      }
+    }
+  >
+    <div
+      className="items-center flex sm:flex-row justify-between sm:items-center bg-white fixed top-0 left-0 right-0 z-30 border-b"
+    >
+      <div
+        className="flex items-center justify-center z-10 relative"
+      >
+        <h2
+          className="m-2 font-extrabold text-[22px] my-5"
+        >
+          E-SCAPE
+        </h2>
+        <span
+          className="cursor-pointer md:hidden block"
+          onClick={[Function]}
+        >
+          <svg
+            fill="currentColor"
+            height={25}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width={25}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M14 17H4v2h10v-2zm6-8H4v2h16V9zM4 15h16v-2H4v2zM4 5v2h16V5H4z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        className="flex flex-end space-x-2 pr-5"
+      >
+        <div
+          className="flex py-3 cursor-pointer"
+        >
+          <div
+            className="rounded-full h-10 w-10 bg-gray-100 flex justify-center items-center"
+          >
+            <span
+              className="text-white font-bold text-sm"
+            >
+              <svg
+                color="black"
+                fill="currentColor"
+                height={22}
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  {
+                    "color": "black",
+                  }
+                }
+                viewBox="0 0 24 24"
+                width={22}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div
+          className="w-[100%] flex-col items-center hidden md:flex"
+        >
+          <div
+            className="flex py-3"
+          >
+            <div
+              className="rounded-full h-10 w-10 bg-gray-300 flex justify-center items-center"
+            >
+              <span
+                className="text-white font-bold text-sm"
+              >
+                CH
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+  </div>
+  <main
+    className="col-span-1 flex justify-center items-center"
+  >
+     
+  </main>
+</div>
+`;

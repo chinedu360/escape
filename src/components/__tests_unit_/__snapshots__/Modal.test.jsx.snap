@@ -1,0 +1,48 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Modal.jsx > Snapshot 1`] = `
+<div
+  className="m-2"
+>
+  <div
+    className="css-1ghed9e"
+  >
+    <div
+      className="border-red-300 border-[2px] rounded-md css-170zrko"
+    >
+      <div
+        className="css-1bwftuo"
+      />
+      <div
+        className="css-1p2ux4r"
+      >
+        My Articles
+      </div>
+    </div>
+    <div
+      className="border-green-600 border-[2px] rounded-md css-1n1mkoi"
+    >
+      <div
+        className="css-daheo5"
+      />
+      <div
+        className="css-1p2ux4r"
+      >
+        Our Authors
+      </div>
+    </div>
+    <div
+      className="border-teal-500 border-[2px] rounded-md css-1n1mkoi"
+    >
+      <div
+        className="css-h53m4y"
+      />
+      <div
+        className="css-1p2ux4r"
+      >
+        Comments
+      </div>
+    </div>
+  </div>
+</div>
+`;
